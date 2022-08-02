@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background-image: url(./assets/images/bg-tablet-pattern.svg),url(./assets/images/bg-tablet-pattern.svg);
+  background-position: 750px -90px,-170px 900px;
+  background-repeat: no-repeat;
+  background-size: 650px,600px;
+  
+}
+.navbar-brand {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.nav-item a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn {
+  border-radius: 30px;
+  padding: 8px 10px;
+  border: rgb(240, 94, 41);
+  background: rgb(240, 94, 41);
+  font-size: 14px;
+}
+.active {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* end of nav */
+
+.hero-section {
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 30px;
+  color: rgb(36, 36, 71);
+}
+.hero {
+  margin-left: 50px;
+}
+.hero-section-p {
+  margin-right: 150px;
+}
+/* end of hero */
+
+.header {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.manage {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(36, 36, 71);
+}
+.manage-p {
+  color: grey;
+  width: 75%;
+}
+.track1,
+.track2,
+.track3 {
+  margin-left: 100px;
+  margin-top: -32px;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(36, 36, 71);
+}
+.track1-p {
+  margin-right: 30px;
+}
+.no1,
+.no2,
+.no3 {
+  border-radius: 50%;
+  width: 5%;
+  text-align: center;
+  color: white;
+  padding: 8px 10px;
+  background: rgb(240, 94, 41);
+  margin-left: 50px;
+  font-size: 12px;
+}
+.track1-p,
+.track2-p,
+.track3-p {
+  font-size: 15px;
+  color: grey;
+  width: 85%;
+  margin-left: 100px;
+}
+
+/* end of header */
+
+.image-section {
+  text-align: center;
+  margin-right: 50px;
+}
+.ay-image,
+.deb-image,
+.isaac-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-try{
+    background-image: url(./assets/images/bg-simplify-section-desktop.svg);
+    background-position: 550px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+.image-section h3 {
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-bottom: 100px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: rgb(36, 36, 71);
+}
+.img-h2 {
+  color: rgb(36, 36, 71);
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.img-p {
+  font-size: 14px;
+  text-indent: 20px;
+  width: 80%;
+  text-align: center;
+  margin-left: 30px;
+  color: grey;
+  margin-top: 10px;
+}
+/* end of image-section */
+
+.dot1 {
+  height:6px;
+  width: 6px;
+  background-color:blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+  height: 6px;
+  width: 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+  .get-started,.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  .get-started{
+    margin-top: 20px;
+  }
+  /* end of footer-check */
+
+ .simplify{
+    margin-top: 50px;
+    background-color: rgb(240, 94, 41);
+    color: white;
+    padding-left: 100px;
+    margin-right: -50px;
+    padding-bottom: 10px;
+    background-image: url(./assets/images/bg-simplify-section-desktop.svg);
+    background-position: 350px;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+
+
+  }
+  .simplify h3{
+    margin-top: 30px;
+    font-weight: 700;
+    margin-right: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+ width: 60%;
+  }
+
+  .btn2{
+    border-radius: 30px;
+    border: white;
+    background-color: white;
+    color: rgb(240, 94, 41);
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 5px 10px 5px 10px;
+}
+/* end of footer-check */
+
+
+.footer{
+        background-color: rgb(31, 30, 30);
+}
+.footer-container2 ul li a,.footer-container3 ul  li a{
+  text-decoration: none;
+  color:white;
+  font-size: 12px;
+  margin-left: 50px;
+
+}
+.footer-container2 ul,.footer-container3 ul{
+    list-style-type: none;
+    margin-top: 25px;
+}
+input[type=text]{
+    border-radius: 20px 20px;
+      padding: 5px 7px;
+       margin-left: 50px;
+}
+
+.logo1,.img-manage{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+ .footer-container4{
+    margin-left: -100px;
+    margin-top: 50px;
+    margin-right: 0px;   
+}
+.Go-button{
+  border-radius:30px;
+  color: white;
+border:rgb(240, 94, 41);
+background-color:rgb(240, 94, 41);
+padding:5px 10px 5px 10px;
+font-size: 12px;
+font-weight: 500;
+}
